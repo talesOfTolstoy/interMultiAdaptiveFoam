@@ -1,0 +1,6 @@
+fluid/incompressibleCourantNo.C
+solid/solidRegionDiffNo.C
+interMultiAdaptiveFoam.C
+
+
+EXE = $(FOAM_USER_APPBIN)/interMultiAdaptiveFoam

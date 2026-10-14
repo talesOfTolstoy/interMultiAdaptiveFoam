@@ -1,0 +1,28 @@
+# OpenFOAM generated build output
+Make/*/
+*/Make/*/
+lnInclude/
+*/lnInclude/
+*.o
+*.dep
+*.so
+*.dylib
+*.a
+*.obj
+
+# OpenFOAM runtime output when a case is kept below this repository
+processor*/
+postProcessing/
+dynamicCode/
+
+# Editor and local OS files
+.DS_Store
+*~
+.#*
+
+# Local scratch/source backup variants kept outside the active build inputs
+*.org
+*.rog
+*.axisy
+*.2drefine
+

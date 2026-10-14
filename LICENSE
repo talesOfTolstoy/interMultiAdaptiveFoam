@@ -1,0 +1,13 @@
+Copyright (C) 2026 Borja Diaz-Guardamino Sobrin
+
+This project is licensed under the GNU General Public License, version 3 or
+later (GPL-3.0-or-later).
+
+The authoritative license text is available from the Free Software Foundation:
+https://www.gnu.org/licenses/gpl-3.0.html
+
+This repository incorporates OpenFOAM-derived code and other upstream
+components. Their original copyright and license notices remain applicable
+and must be preserved.
+
+SPDX-License-Identifier: GPL-3.0-or-later

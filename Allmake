@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+project_root="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+cd "$project_root/interfaceProperties"
+wmake
+
+cd "$project_root/AMR/dynamicMesh"
+wmake
+
+cd "$project_root/AMR/dynamicFvMesh"
+wmake
+
+cd "$project_root"
+wmake
